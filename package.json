@@ -1,0 +1,13 @@
+{
+  "name": "my-vite-app",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "hono": "^4.9.2"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
