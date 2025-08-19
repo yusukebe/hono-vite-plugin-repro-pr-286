@@ -3,8 +3,7 @@ import devServer from '@hono/vite-dev-server'
 
 export default defineConfig({
   base: '/foo',
-  //base: '/foo.bar',
-  //base: '/fooxbar',
+  base: '/foo.bar',
   plugins: [
     devServer({
       entry: 'src/index.tsx'
